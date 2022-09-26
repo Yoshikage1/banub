@@ -6,7 +6,7 @@ ID = "3147700"
 HASH = "e660ea4d20e70a3897aa8cf3a6dc60af" 
 SESS = str(input("\n Send Pyrogram V2 session: "))
 
-RiZoeL = Client("RiZoeL", api_id=ID, api_hash=HASH, session_string=SESS)
+RiZoeL = Client("RiZoeL", api_id=ID, api_hash=HASH, session_name=SESS)
 
 grp = int(input("Enter Group id: "))
 
